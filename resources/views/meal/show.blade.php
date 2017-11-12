@@ -11,7 +11,7 @@ Details for {{ $meal->name }}
     <h2 class="meal-name">{{$meal->name}}&nbsp;</h2>
 
     <span class="meal-time">
-      Sunday, November 12th, 2017
+      {{$meal->created_at->format('m/d/y H:i A')}}
     </span>
 
     <br>
