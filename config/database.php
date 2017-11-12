@@ -54,11 +54,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'localhost'),
+            'host' => env('DB_HOST', 'sulnwdk5uwjw1r2k.cbetxkdyhwsb.us-east-1.rds.amazonaws.com'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'myfitnessbuddy'),
-            'username' => env('DB_USERNAME', 'root'),
-            'password' => env('DB_PASSWORD', 'UPPERlower123!@#'),
+            'database' => env('DB_DATABASE', 'whwalgnu5pigd7a2'),
+            'username' => env('DB_USERNAME', 'nrah3i5zs9uc80nv'),
+            'password' => env('DB_PASSWORD', 'gjtlb1ztw7xgayh2'),
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
