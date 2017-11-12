@@ -5,10 +5,18 @@
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
             <div class="panel panel-default">
-                <div class="panel-heading">Welcome</div>
-
+                @if($user)
+                <div class="panel-heading">Welcome, {{$user->name}}!</div>
+                @else
+                <div class="panel-heading">Welcome, stranger</div>
+                
+                @endif
                 <div class="panel-body">
-                    Welcome to My Fitness Buddy. Login or Register to begin.
+                @if($user)
+                    Welcome, {{$user->name}}!<a href="/meal/create"> Add a meal </a>to begin.
+                @else
+                    Welcome, stranger. Login/Register to begin. 
+                @endif
                 </div>
             </div>
         </div>
