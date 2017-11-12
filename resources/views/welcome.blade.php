@@ -15,7 +15,7 @@
                 @if($user)
                     Welcome, {{$user->name}}!<a href="/meal/create"> Add a meal </a>to begin.
                 @else
-                    Welcome, stranger. Login/Register to begin. 
+                    Welcome, stranger. <a href="/login">Login</a>/<a href="/register">Register</a> to begin. 
                 @endif
                 </div>
             </div>
